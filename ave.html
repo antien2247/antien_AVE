@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bootstrap Example</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <link rel="stylesheet" href="css/ave.css">
+
+</head>
+<body>
+<!--header-->
+<div class="header">
+    <div class="header-top">
+        <div class="row">
+            <div class="col-xs-6 col-sm-6 col-md-6 text-center">
+                <div class="dropdown">
+                    <a class="nav-link" href="#" id="navbarDropdown">
+                        Currency: GDP &nbsp <i class="fas fa-caret-down"></i>
+                    </a>
+                    <div class="dropdown-content">
+                        <a class="dropdown-item" href="#">USD</a>
+                        <a class="dropdown-item" href="#">VND</a>
+                        <a class="dropdown-item" href="#">EURO</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-6 col-md-6">
+                <ul class="nav">
+                    <li class="nav-item li1">
+                        <a class="nav-link" href="#">Register</a>
+                    </li>
+                    <li class="nav-item li1">
+                        <a class="nav-link" href="#">Sign in</a>
+                    </li>
+                    <li class="nav-item li1 active1">
+                        <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i> &nbsp &nbsp Empty</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="header-bottom">
+        <div class="header-bottom-top">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="logo">
+                        <b>Avenua</b> fashion
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="nav">
+                                <li class="dropdown">
+                                    <a class="nav-link nav1" href="#" id="navbarDropdown">
+                                        Men &nbsp <i class="fas fa-caret-down"></i>
+                                    </a>
+                                    <div class="dropdown-content1">
+                                        <div class="sub-menu">
+                                            <div class="sub-menu-left">
+                                                <ul>
+                                                    <li><b>casuals</b></li>
+                                                    <li>casuals</li>
+                                                    <li>Jackets</li>
+                                                    <li>Hoodies & Sweatshirts</li>
+                                                </ul>
+                                            </div>
+
+                                            <div class="sub-menu-right">
+                                                <ul>
+                                                    <li><b>casuals</b></li>
+                                                    <li>casuals</li>
+                                                    <li>Jackets</li>
+                                                    <li>Hoodies & Sweatshirts</li>
+                                                </ul>
+                                            </div>
+                                            <div class="clear"></div>
+                                            <div id="banner">
+                                                <h2 class="banner-title-top">Autumn sale!</h2>
+                                                <h2 class="banner-title-bottom">up to 50% off</h2>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </li>
+                                <li class="nav-item"><a class="nav-link nav1" href="#">Womans</a></li>
+                                <li class="nav-item"><a class="nav-link nav1" href="#">The Brand</a></li>
+                                <li class="nav-item"><a class="nav-link nav1" href="#">Local Stores</a></li>
+                                <li class="nav-item"><a class="nav-link nav1" href="#">Look Book</a></li>
+                                <li>
+                                    <!--<form class="form-inline">-->
+                                    <!--<input type="text" class="form-control" placeholder="Search..." name="email">-->
+                                    <!--<i class="fas fa-search"></i>-->
+                                    <!--</form>-->
+                                    <form class="form-inline my-2 my-lg-0">
+                                        <input class="form-control mr-sm-2" type="search" placeholder="Search"
+                                               aria-label="Search">
+                                    </form>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+
+                </div>
+            </div>
+        </div>
+        <!--caroseo-->
+        <div id="demo" class="carousel slide" data-ride="carousel">
+
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0"></li>
+            </ul>
+
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="image/slider.jpg">
+                    <!--<div class="carousel-caption">-->
+                        <!--<h1 class="display-2">AVE</h1>-->
+                        <!--<button type="button" class="btn btn-primary btn-lg">-->
+                            <!--Shop men's collection-->
+                        <!--</button>-->
+                    <!--</div>-->
+                </div>
+            </div>
+        </div>
+        <!--caroisel-->
+    </div>
+</div>
+
+<!--content-->
+<div class="content">
+    <div class="content-top">
+        <div class="container">
+            <hr style="margin-top: 50px">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item li2">
+                            <a class="nav-link nav2 active" href="#">Popular</a>
+                        </li>
+                        <li class="nav-item li2">
+                            <a class="nav-link nav2" href="#">New Arrivals</a>
+                        </li>
+                        <li class="nav-item li2">
+                            <a class="nav-link nav2" href="#">Best Sellers</a>
+                        </li>
+                        <li class="nav-item li2">
+                            <a class="nav-link nav2" href="#">Special Offers</a>
+                        </li>
+                        <li class="nav-item li2">
+                            <a class="nav-link nav2" href="#">Coming Soon</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <div class="product-result">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="row">
+                            <div class="content-top-left col-md-6">
+                                <img src="image/iteam1.jpg">
+                            </div>
+                            <div class="content-top-right col-md-6">
+                                <img src="image/iteam2.jpg">
+                            </div>
+                            <div class="content-top-center col-md-12">
+                                <img src="image/iteam4.jpg">
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row">
+                            <div class="content-top-center col-md-12">
+                                <img src="image/iteam3.jpg">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="content-top-left">
+                                    <img src="image/iteam5.jpg">
+                                    <div class="con-menu">
+                                        <div><b>WOMAN'S BURNT ORANGE CASUAL TEE $29.95</b></div>
+                                        <div>Classic casual t-shirt for women on the move.</div>
+                                        <div>100% cotton</div>
+                                        <ul>
+                                            <li><i class="fas fa-shopping-cart"></i></li>
+                                            <li><i class="fab fa-gratipay"></i></li>
+                                            <li><i class="fas fa-arrow-circle-left"></i></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="content-top-right col-md-6">
+                                <img src="image/iteam6.jpg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+        </div>
+    </div>
+
+    <div class="content-bottom">
+        <div class="row">
+            <div class="col-md-4 col-sm-12">
+                <div class="row content-text">
+                    <div class="col-md-5 content-text-top">
+                        <img src="image/iteam7.jpg">
+                    </div>
+                    <div class="col-md-7 content-text-bottom">
+                        <div class="men"></div>
+                        <h2><b>MEN'S</b></h2>
+                        <h2>LOOK BOOK</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod, nunc id iaculis
+                            commodo.</p>
+                        <button>VIEW NOW</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="row content-text">
+                    <div class="col-md-5 content-text-top">
+                        <img src="image/iteam8.jpg">
+                    </div>
+                    <div class="col-md-7 content-text-bottom">
+                        <div class="men"></div>
+                        <h2><b>WOMEN'S</b></h2>
+                        <h2>LOOK BOOK</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod, nunc id iaculis
+                            commodo.</p>
+                        <button>VIEW NOW</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-12">
+                <div class="row content-text">
+                    <div class="col-md-5 content-text-top">
+                        <img src="image/iteam9.jpg">
+                    </div>
+                    <div class="col-md-7 content-text-bottom">
+                        <div class="men"></div>
+                        <h2><b>YOUR</b></h2>
+                        <h2>LOOK BOOK</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod, nunc id iaculis
+                            commodo.</p>
+                        <button>VIEW NOW</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--End content-->
+
+<!-- Footer -->
+<div id="footer" class="footer">
+    <div class="container">
+        <div class="footer__top">
+            <div class="footer-menu">
+                <div class="footer-pading">
+                    <div class="flex-container flex-wrap">
+                        <div style="flex-grow: 2">
+                            <h6>INFORMATION</h6>
+                            <div>The brank</div>
+                            <div>Local stores</div>
+                            <div>Customer service</div>
+                            <div>Privacy & cookies</div>
+                            <div>Site map</div>
+                        </div>
+                        <div style="flex-grow: 2">
+                            <h6>WHY BUY FROM US</h6>
+                            <div>Shipping & returns</div>
+                            <div>Secure shopping</div>
+                            <div>Testimonials</div>
+                            <div>Award winning</div>
+                            <div>Ethical trading</div>
+                        </div>
+                        <div style="flex-grow: 2">
+                            <h6>YOUR ACCOUNT</h6>
+                            <div>Sign in</div>
+                            <div>Register</div>
+                            <div>View cart</div>
+                            <div>View your lookbook</div>
+                            <div>Track an order</div>
+                            <div>Update information</div>
+                        </div>
+                        <div style="flex-grow: 2">
+                            <h6>LOOK BOOK</h6>
+                            <div>Latest posts</div>
+                            <div>Men's lookbook</div>
+                            <div>Woman's lookbook</div>
+                            <div>Lookbook RSS feed</div>
+                            <div>View your lookbook</div>
+                            <div>Delete your lookbook</div>
+                        </div>
+                        <div style="flex-grow: 2">
+                            <h6>CONTACT DETAILS</h6>
+                            <div>Head Office: Avenua Fashion</div>
+                            <div>180-182 Regent Stress London</div>
+                            <div>Telephone: 012-345-678</div>
+                            <div>Email:traoantien2247@gmail.com</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-sm-6 ">
+                    <div class="footer-box__left">
+                        <b>AWARD WINNER</b>
+                        <div>FASHION AWARD 2016</div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                    <div class="footer-box__right">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-app-store"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<div class="footer__bottom">
+    <div class="container">
+        <div class="row">
+            <span class="col-md-6 ">&#169; 2016 Avenua Fashion.</span>
+            <div class="col-md-6 text-right">
+                <span class="text-right1">Design by Robby Designs.com</span>
+                <span>Dev by Loremispum.com</span>
+            </div>
+        </div>
+    </div>
+</div>
+<!--End footer-->
+
+<!--Import javascript library-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>
